@@ -1,0 +1,11 @@
+
+---
+
+## **requirements.txt**
+
+Pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
