@@ -65,8 +65,14 @@ We built, evaluated, and improved multiple models (Logistic Regression, Random F
 
 ## 🖥 How to Run
 ```bash
-# Clone repository
-git clone https://github.com/<your-username>/customer-churn-prediction.git
+## 🔗 Quick Access
+
+- 📂 **GitHub Repo:** [Dvipg / customer-churn-prediction](https://github.com/Dvipg/customer-churn-prediction)
+- 📄 **View Notebook on GitHub:** [customer-churn-prediction-end-to-end.ipynb](customer-churn-prediction-end-to-end.ipynb)
+- 🚀 **Run in Google Colab:** [Open in Colab](https://colab.research.google.com/github/Dvipg/customer-churn-prediction/blob/main/customer-churn-prediction-end-to-end.ipynb)
+- 📜 **PDF Report:** [Download PDF](customer-churn-prediction-end-to-end.pdf)
+- 📦 **Requirements:** [requirements.txt](requirements.txt)
+
 
 # Install dependencies
 pip install -r requirements.txt
