@@ -4,78 +4,52 @@
 **Role:** BI / Data Scientist | Aspiring AI Expert  
 **Date:** August 2025  
 
----
+## 📬 Contact
 
-## 🚀 Project Overview
-Customer churn is a critical challenge for subscription-based businesses.  
-This project predicts which customers are most likely to churn, enabling proactive retention strategies.
-
-We built, evaluated, and improved multiple models (Logistic Regression, Random Forest, XGBoost) and generated actionable business insights.
+- 💼 [My LinkedIn](https://www.linkedin.com/in/dvipg)
+- 📧 [My Gmail](mailto:deepeshg4223@gmail.com)
 
 ---
 
-## 🛠 Tech Stack
-- **Languages:** Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost)
-- **Tools:** Jupyter Notebook
-- **Techniques:** Data preprocessing, feature engineering, model evaluation, business insight generation
-
----
-
-## 📂 Dataset
-- **Source:** [Telco Customer Churn Dataset – Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
-- **Size:** ~7,000 records, 20+ features
-- **Target Variable:** `Churn` (Yes / No)
-
----
-
-## 📈 Workflow
-1. **Problem Definition**
-2. **Data Overview**
-3. **Data Preprocessing**
-4. **Baseline Model – Logistic Regression**
-5. **Model Improvement – Random Forest & XGBoost**
-6. **Feature Importance Analysis**
-7. **Business Recommendations**
-8. **Conclusion & Next Steps**
-
----
-
-## 📊 Results
-| Metric              | Logistic Regression | Random Forest | XGBoost |
-|--------------------|--------------------|---------------|---------|
-| Accuracy           | 0.80               | 0.83          | **0.85**|
-| ROC-AUC            | 0.84               | 0.87          | **0.89**|
-| Precision@Top10%   | 0.71               | 0.75          | **0.78**|
-
----
-
-## 💡 Key Insights
-- High **MonthlyCharges** + Low **Tenure** → High churn probability.
-- Customers paying via **Electronic Check** churn more often.
-- Customers with fewer additional services are more likely to leave.
-
----
-
-## 📌 Recommendations
-- Offer **loyalty discounts** to new customers within the first 3 months.
-- Encourage **auto-payment options** with incentives.
-- Bundle additional services to improve retention.
-
----
-
-## 🖥 How to Run
-```bash
 ## 🔗 Quick Access
-
 - 📂 **GitHub Repo:** [Dvipg / customer-churn-prediction](https://github.com/Dvipg/customer-churn-prediction)
 - 📄 **View Notebook on GitHub:** [customer-churn-prediction-end-to-end.ipynb](customer-churn-prediction-end-to-end.ipynb)
 - 🚀 **Run in Google Colab:** [Open in Colab](https://colab.research.google.com/github/Dvipg/customer-churn-prediction/blob/main/customer-churn-prediction-end-to-end.ipynb)
 - 📜 **PDF Report:** [Download PDF](customer-churn-prediction-end-to-end.pdf)
 - 📦 **Requirements:** [requirements.txt](requirements.txt)
 
+---
 
-# Install dependencies
+## 📌 Project Overview
+Customer churn refers to when customers stop doing business with a company.  
+Predicting churn allows businesses to take proactive steps to retain customers, saving costs and protecting revenue.
+
+This project builds an **end-to-end churn prediction pipeline**:
+1. **Data Preprocessing** – Cleaning, handling missing values, encoding
+2. **Exploratory Data Analysis (EDA)** – Identifying churn patterns
+3. **Modeling** – Logistic Regression baseline model
+4. **Evaluation** – Accuracy, Precision, Recall, F1, ROC-AUC, Precision@K
+5. **Insights** – Key churn drivers for business decision-making
+
+---
+
+## 🛠 Technologies Used
+- **Python**
+- pandas, numpy, matplotlib, seaborn
+- scikit-learn
+- xgboost
+- Jupyter Notebook
+
+---
+
+## ⚡ How to Run Locally
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/Dvipg/customer-churn-prediction.git
+cd customer-churn-prediction
+
+# 2️⃣ Install dependencies
 pip install -r requirements.txt
 
-# Run Jupyter Notebook
-jupyter notebook Churn_Prediction_Project.ipynb
+# 3️⃣ Run Jupyter Notebook
+jupyter notebook customer-churn-prediction-end-to-end.ipynb
