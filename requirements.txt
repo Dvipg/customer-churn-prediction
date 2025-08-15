@@ -1,9 +1,4 @@
-
----
-
-## **requirements.txt**
-
-Pandas
+pandas
 numpy
 matplotlib
 seaborn
